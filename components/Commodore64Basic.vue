@@ -3,7 +3,7 @@
     controls 
     autoplay
     src="/video/Commodore64Basic.mp4"
-    poster="/img/Commodore64Basic.jpg"
+    poster="/img/Commodore64Basic.webp"
   >
     Sorry, your browser doesn't support embedded videos. You can
     <a href="/video/Commodore64Basic.mp4">download it here</a>.
