@@ -16,5 +16,9 @@
   },
   "engines": {
     "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@videojs-player/vue": "^1.0.0",
+    "video.js": "^8.9.0"
   }
 }
