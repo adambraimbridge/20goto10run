@@ -1,27 +1,11 @@
 <template>
-  <video-player :options="videoOptions" />
+  <video
+    controls 
+    autoplay
+    src="/video/Commodore64Basic.mp4"
+    poster="/img/Commodore64Basic.jpg"
+  >
+    Sorry, your browser doesn't support embedded videos. You can
+    <a href="/video/Commodore64Basic.mp4">download it here</a>.
+  </video>
 </template>
-
-<script>
-import { defineComponent } from 'vue'
-import { VideoPlayer } from '@videojs-player/vue'
-import 'video.js/dist/video-js.css'
-
-export default defineComponent({
-  components: { VideoPlayer },
-  data: () => ({
-    videoOptions: {
-      autoplay: true,
-      controls: false,
-      fluid: true,
-      sources: [
-        {
-          src: '/video/20goto10run.mp4',
-          poster: '/img/20goto10run.jpg',
-          type: 'video/mp4',
-        }
-      ]
-    }
-  })
-})
-</script>
