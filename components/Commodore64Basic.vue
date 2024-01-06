@@ -1,6 +1,6 @@
 <template>
   <video
-    controls 
+    class="my-20 rounded-3xl shadow-lg"
     autoplay
     src="/video/Commodore64Basic.mp4"
     poster="/img/Commodore64Basic.webp"
