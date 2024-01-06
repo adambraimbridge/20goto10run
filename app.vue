@@ -1,5 +1,5 @@
 <template>
-  <div class="prose h-screen flex justify-center bg-[#6a57b2]">
+  <div class="h-screen flex justify-center bg-[#6a57b2]">
     <NuxtPage />
   </div>
 </template>
