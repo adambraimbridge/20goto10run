@@ -1,20 +1,9 @@
-
 <template>
-  <div class="image-container">
-    <img src="/img/Commodore64BasicAnimated.webp" />
+  <div class="grid place-content-center p-5">
+    <img class="rounded-lg w-screen max-h-full drop-shadow-lg" src="/img/Commodore64BasicAnimated.webp" />
   </div>
 </template>
 
 <style>
-.image-container {
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
-}
-
-.image-container img {
-  width: 100%;
-  height: auto;
-}
+/*  */
 </style>
-
