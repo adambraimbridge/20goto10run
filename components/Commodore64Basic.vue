@@ -1,24 +1,20 @@
 
 <template>
-  <video
-    ref="video"
-    class="my-20"
-    autoplay
-    src="/video/Commodore64Basic.mp4"
-    poster="/img/Commodore64Basic.webp"
-  >
-    Sorry, your browser doesn't support embedded videos. You can
-    <a href="/video/Commodore64Basic.mp4">download it here</a>.
-  </video>
+  <div class="image-container">
+    <img src="/img/Commodore64BasicAnimated.webp" />
+  </div>
 </template>
 
-<!-- Autoplay in edge browser -->
-<script>
-  export default {
-    mounted() {
-      this.$nextTick(() => {
-        this.$refs.video.play();
-      });
-    },
-  };
-</script>
+<style>
+.image-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+</style>
+
